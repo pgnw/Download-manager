@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Margin="345,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"></TextBox>
+        <Label Content="URL" HorizontalAlignment="Left" Margin="345,124,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Go" HorizontalAlignment="Left" Margin="345,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.025,0.553" Click="Button_Click"/>
+
     </Grid>
 </Window>
